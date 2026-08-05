@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Holyrics File JSON</title>
+
+  <style>
+    :root {
+      --primary: #2563eb;
+      --primary-hover: #1d4ed8;
+      --bg: #f6f8fa;
+      --text: #24292f;
+      --border: #d0d7de;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 32px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, .08);
+    }
+
+    h1,
+    h2 {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: .4rem;
+    }
+
+    .download {
+      display: inline-block;
+      margin: 16px 0 28px;
+      padding: 14px 24px;
+      background: var(--primary);
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 600;
+    }
+
+    .download:hover {
+      background: var(--primary-hover);
+    }
+
+    img {
+      width: 100%;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+    }
+
+    .path {
+      background: #f3f4f6;
+      padding: 12px;
+      border-radius: 6px;
+      font-family: monospace;
+      margin-bottom: 20px;
+    }
+
+    footer {
+      margin-top: 40px;
+      color: #666;
+      font-size: .9rem;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <main>
+
+    <h1>🎵 Holyrics File JSON</h1>
+
+    <p>
+      Este repositório disponibiliza um arquivo <strong>Holyrics File JSON</strong>
+      para importar músicas diretamente no Holyrics.
+    </p>
+
+    <a class="download" href="Holyrics.json" download>
+      📥 Baixar arquivo JSON
+    </a>
+
+    <h2>Como importar</h2>
+
+    <ol>
+      <li>Baixe o arquivo JSON.</li>
+      <li>Abra o Holyrics.</li>
+      <li>Acesse o menu <strong>Músicas</strong>.</li>
+      <li>Clique em <strong>Importar</strong>.</li>
+      <li>Selecione <strong>Outros</strong>.</li>
+      <li>Clique em <strong>Holyrics File JSON</strong>.</li>
+      <li>Localize o arquivo baixado.</li>
+      <li>Confirme a importação.</li>
+    </ol>
+
+    <h2>Tutorial visual</h2>
+
+    <div class="path">
+      Músicas → Importar → Outros → Holyrics File JSON
+    </div>
+
+    <img src="images/importar-holyrics-json.png" alt="Importando arquivo JSON no Holyrics">
+
+    <h2>Observações</h2>
+
+    <ul>
+      <li>O arquivo importará todas as músicas presentes no JSON.</li>
+      <li>Se já existirem músicas com o mesmo nome, o comportamento dependerá das configurações do Holyrics.</li>
+      <li>Recomenda-se fazer um backup antes da importação.</li>
+    </ul>
+
+  </main>
+
+</body>
+
+</html>
