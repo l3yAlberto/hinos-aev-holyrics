@@ -29,4 +29,4 @@ Adicionei abaixo um print mostrando o menu **Músicas** aberto.
 
 ## Download
 
-📥 **[Baixar arquivo JSON](https://raw.githubusercontent.com/l3yAlberto/hinos-aev-holyrics/main/hinos-eav.json)**
+📥 **[Baixar arquivo JSON](https://raw.githubusercontent.com/l3yAlberto/hinos-aev-holyrics/refs/heads/main/Holyrics.json)**
